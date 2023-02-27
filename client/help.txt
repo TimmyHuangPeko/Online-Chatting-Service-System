@@ -1,0 +1,37 @@
+---------------------instruction for chat system---------------------
+This is a chat system which provide users a platform to chat with 
+others on-line, and it can be used easily even for layman who know 
+nothing about the operation and protocol of the application.
+
+Below is the introduction of all commands you can apply to chat with
+others:
+
+	(1) connect [IP ADDRESS] [PORT] [USER NAME]
+		Connect to server with given IP address and port number,
+		it's like joining a specific chat group.
+		Moreover, you should choose a user name to log into the
+		server, so that other users can recognize you.
+		
+	(2) chat [User]... [MESSAGE]
+		send a message to given user.
+		The way you commnunicate with other users can either be 
+		unicast or multicast, which means you can send the same 
+		messages to more than one users at the same time, and the
+		only thing you do is to specify all users you want to 
+		communicate with.
+		
+	(3) leave
+		Leave the chat system and disconnect to server, but not
+		exiting this program, it's like you disconnect to web server
+		but keep the web page.
+		
+	(4) exit
+		Exit the program, like closing the web page directly.
+		
+	(5) help
+		Figure out how to command to the terminal to manipulate the 
+		chat program.
+		In other words, it will show what you are reading right
+		now on the terminal.
+---------------------------------------------------------------------
+		
